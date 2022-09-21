@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #222;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "poppin", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title {
+  font-size: 64px;
+  color: #222;
+}
+@media screen and (max-width: 766px) {
+  .title{
+    font-size: 30px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header, .hero, .provide {
+  background-color: #F8F3EC;
+}
+.provide{
+  padding: 100px;
+}
+.box-content{
+  background-color: #EAE4DC;
+}
+.work , .ready, .footer{
+  background-color: #181817;
+}
+.container-content {
+  max-width: 1170px !important;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.img-abs{
+  right: -31%;
+  top: 25%;
+  transform: rotate(10deg) !important;
+  width: 75%;
+  height: 75%;
+}
+.img-zoom {
+  overflow: hidden;
+  transition: transform 0.5s; /* Animation */
+}
+
+.img-zoom:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+}
+.avt{
+  width: 50px;
+  object-fit: cover;
+  height: 50px;
+  object-fit: cover;
+}
+.btn {
+  background-color: #F6D88C ;
+  color: #fff ;
+  cursor: pointer !important;
+  border-radius: 16px !important;
+  padding: 12px 24px !important;
+  font-size: 20px !important;
+}
+.txt-color{
+  color: #F29764;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.icon-check{
+width: 25px;
+height: 25px;
+}
+
+.sp-none{
+  display: none;
+}
+.footer{
+  margin-top: 250px;
+}
+.grid-img{
+  display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.image-between {
+  margin-top: 200px !important;
+}
+@media screen and (max-width: 766px) {
+  .image-between {
+    margin-top: 0 !important;
+  }
+}
+
+.bg-blue {
+  background-color: rgba(1, 152, 109, 0.2);
+}
+
+
+
+
+  @media screen and (min-width: 375px) and (max-width:767px) {
+  .about, .footer {
+    padding: 20px;
+}
+.col-sp{
+  flex-direction: column ;
+}
+.product, .work {
+  padding-bottom: 150px;
+}
+  .product, .work {
+    padding-bottom: 50px;
+  }
+.footer{
+  margin-top: 50px;
+}
+.product-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.content {
+  top: 50%;
+  right: 80%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.provide{
+  padding: 10px;
+}
+.content {
+  display: none;
+}
+.hero-content {
+  top: 27%;
+}
+.content-work {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+  }
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .content {
+    right: 60%;
+  }
+}

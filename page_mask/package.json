@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.1"
+  },
+  "name": "boostrap_jquery",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducquanpham/baikiemtraboostrap-P-Q.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducquanpham/baikiemtraboostrap-P-Q/issues"
+  },
+  "homepage": "https://github.com/ducquanpham/baikiemtraboostrap-P-Q#readme",
+  "description": ""
+}
